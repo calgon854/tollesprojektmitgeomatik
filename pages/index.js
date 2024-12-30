@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <Container>
       <Typography variant="h3" gutterBottom>
-        Welcome to My Next.js App
+        Halle es ist hier so schön warm
       </Typography>
       <Typography variant="body1" gutterBottom>
-        This is a simple homepage. Use the navigation buttons below to explore.
+        Dies ist eine simple Internetseite für Pätzi, hallo Pätzi!
       </Typography>
       <div>
         <Link href="/info" passHref>
