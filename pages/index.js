@@ -26,7 +26,7 @@ export default function Home() {
         uncovered. Rai and Jiri at Lungha. The beast at Tanagra.
       </Typography>
       <div>
-        <Link href="/info" passHref>
+        <Link href="/infopage" passHref>
           <Button
             variant="contained"
             color="primary"
