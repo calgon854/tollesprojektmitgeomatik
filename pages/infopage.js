@@ -7,8 +7,9 @@ import {
   ToggleButtonGroup,
 } from "@mui/material";
 
-const BACKEND_BASE_URL = "http://localhost:8000/api/zurich";
-// const BACKEND_BASE_URL = "https://nextjs-fastapi-starter-kappa-one.vercel.app/api/zurich";
+// const BACKEND_BASE_URL = "http://localhost:8000/api/zurich";
+const BACKEND_BASE_URL =
+  "https://nextjs-fastapi-starter-kappa-one.vercel.app/api/zurich";
 
 const InfoPage = () => {
   const [timeframe, setTimeframe] = useState("day");
