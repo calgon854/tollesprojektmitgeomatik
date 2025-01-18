@@ -26,7 +26,7 @@ TIMEFRAME_MAPPING = {
     "month": timedelta(days=30),
 }
 
-@app.get("/api/zurich/combined-data")
+@app.get("/api/py/combined-data")
 async def fetch_combined_data(timeframe: str = Query("day", enum=["hour", "day", "week", "month"])):
 
     cutoff_time = datetime.now() - TIMEFRAME_MAPPING[timeframe]
