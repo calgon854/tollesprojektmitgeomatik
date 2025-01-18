@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from typing import List, Dict
 from dateutil.parser import parse as parse_date
 
-app = FastAPI(docs_url="/api/docs", openapi_url="/api/openapi.json")
+app = FastAPI(docs_url="/api/py/docs", openapi_url="/api/py/openapi.json")
 
 app.add_middleware(
     CORSMiddleware,
