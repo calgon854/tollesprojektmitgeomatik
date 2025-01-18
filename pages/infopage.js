@@ -99,7 +99,7 @@ const InfoPage = () => {
         />
         <VegaLite
           spec={{
-            description: "Pressure Over Time",
+            description: "Pressure Over Time (hPa)",
             width: 600,
             height: 300,
             mark: "line",
